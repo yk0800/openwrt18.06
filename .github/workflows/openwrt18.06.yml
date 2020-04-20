@@ -142,6 +142,9 @@ jobs:
            CONFIG_PACKAGE_kmod-usb2=y
            CONFIG_PACKAGE_kmod-usb2-pci=y
            CONFIG_PACKAGE_kmod-usb3=y
+           CONFIG_PACKAGE_kmod-video-core=y
+           CONFIG_PACKAGE_kmod-video-uvc=y
+           CONFIG_PACKAGE_kmod-video-videobuf2=y
           EOF
           # 常用LuCI插件选择:
            cat >> .config <<EOF
